@@ -6,6 +6,7 @@ server2 ansible_port=4000
 
 server3 ansible_port=5000
 clm-pun-026841
+CLM-PUN-026842
 
 [all:vars]
 ansible_host=localhost
