@@ -1,0 +1,15 @@
+[dev]
+server1 ansible_port=3000
+
+[QA]
+server2 ansible_port=4000
+
+server3 ansible_port=5000
+clm-pun-026841
+
+[all:vars]
+ansible_host=localhost
+ansible_user=root
+ansible_private_key_file=/root/.ssh/id_rsa
+ansible_become_user=root
+ansible_become_password=autoCDS123
